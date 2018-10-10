@@ -90,4 +90,4 @@ def deleteDb(pid):
 
 
 checkDB(test_test.db)
-print('hello world')
+print('hello world bye world')

@@ -41,6 +41,7 @@ def cursor():
 
 checkDB()
 
+
 def insertDb(name, passwd):
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
@@ -90,4 +91,5 @@ def deleteDb(pid):
 
 
 checkDB(test_test.db)
+
 print('hello world bye world, no hello to world')
